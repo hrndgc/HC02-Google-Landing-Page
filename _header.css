@@ -1,0 +1,58 @@
+header {
+  width: 100%;
+  padding: 15px 15px 0px 15px;
+}
+
+.hdr_link1 {
+  color: #000000;
+  font-size: 15px;
+  margin: 0em 0.75em 0em;
+  text-decoration: none;
+}
+
+.hdr_link1:hover {
+  text-decoration: underline;
+}
+
+.hdr_link1, .hdr_link2 {
+  color: #000000;
+}
+
+.left-header {
+  opacity: 0.8;
+  float: left;
+}
+
+.right-header {
+  margin-right: 25px;
+  float: right;
+}
+
+#app_icon {
+  vertical-align: middle;
+  opacity: 0.5;
+}
+
+#app_icon:hover {
+  opacity: 1;
+}
+
+#sign-in {
+  color: white;
+  background-color: #4285f4;
+  border: none;
+  height: 30px;
+  width: 70px;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+#sign-in:hover {
+  text-decoration: none;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+#sign-in:active {
+  box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.15);
+}
