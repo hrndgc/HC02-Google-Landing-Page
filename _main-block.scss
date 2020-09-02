@@ -1,9 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     width: 100%;
     white-space: nowrap;
     font-family: Arial, sans-serif;
-    text-decoration: none;
+
 }
 
 #google {
