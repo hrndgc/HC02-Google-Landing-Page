@@ -7,6 +7,7 @@ body {
   width: 100%;
   white-space: nowrap;
   font-family: Arial, sans-serif;
+  text-decoration: none;
 }
 
 #google {

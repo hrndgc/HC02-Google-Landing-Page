@@ -24,14 +24,14 @@ footer {
   margin-right: 25px;
 }
 
-.ftr_link {
+.footer_link {
   color: #5f6368;
   margin-left: 0.75em;
   margin-right: 0.75em;
   text-decoration: none;
 }
 
-.ftr_link:hover {
+.footer_link:hover {
   text-decoration: underline;
 }
 
@@ -40,14 +40,14 @@ header {
   padding: 15px 15px 0px 15px;
 }
 
-.hdr_link {
+.header_link {
   color: #000000;
   font-size: 13px;
   margin: 0em 0.75em 0em;
   text-decoration: none;
 }
 
-.hdr_link:hover {
+.header_link:hover {
   text-decoration: underline;
 }
 
@@ -106,6 +106,7 @@ body {
   width: 100%;
   white-space: nowrap;
   font-family: Arial, sans-serif;
+  text-decoration: none;
 }
 
 #google {
