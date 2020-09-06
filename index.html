@@ -6,70 +6,48 @@
     <title>Google Landing Page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./images/gfavicon.png" type="image/png">
-    
 </head>
 <body>
-    <header>
-        <nav class="left-header">
-            <a href="#" class="header_link">About</a>
-            <a href="#" class="header_link">Store</a>
-        </nav>
-
-        <nav class="right-header">
-            <a href="#" class="header_link">Gmail</a>
-            <a href="#" class="header_link">Images</a>
-            <a href="#" class="header_link" id="app_icon"><img src="./images/appicon.png" alt="app_icon"></a>
-            <button class="header_link" id="sign-in">Sign In</button>
-        </nav>
-
-        <div class="clear"></div>
-
+    <header class="clearfix">
+        <ul class="header-left">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+        </ul>
+        <ul class="header-right">
+            <li> <a href="#">Gmail</a> </li>
+            <li> <a href="#">Images</a> </li>
+            <li> <a href="#"> <img src="./images/appicon.png" alt="Application-Image" id="appicon"> </a> </li>
+            <li> <button id="sign-in-btn">Sign In</button> </li>
+        </ul>
     </header>
-
-
-    <section class="main-section">
-        <img src="./images/googlelogo.png" alt="google_logo" id="google">
-
+    <main>
+        <img id="google-logo" src="./images/googlelogo.png" alt="google-logo">
         <div class="searchbar">
-            <img src="./images/magnifying_glass.jpg" alt="magnifying_glass" id="mag_glass">
-            <input type="search" name="search" id="search">
-            <img src="./images/keyboard.png" alt="keyboard" id="keyboard">
-            <img src="./images/google_microphone.png" alt="microphone" id="microphone">
+            <img id="mag" src="./images/magnifying_glass.jpg" alt="magnify-glass">
+            <input id="search" type="search" name="search">
+            <img id="keyboard" src="./images/keyboard.png" alt="keyboard">
+            <img id="microphone" src="./images/google_microphone.png" alt="microphone">
         </div>
-
-        <div class="button-container">
-            <button type="button" name="button" id="button-1">Google Search</button>
-            <button type="button" name="button" id="button-2">I'm Feeling Lucky</button>
+        <div class="btn-container">
+            <button id="btn1" type="button" name="button">Google Search</button>
+            <button id="btn2" type="button" name="button">I'm Feeling Lucky</button>
         </div>
-
-        <div>
-              <p id="language">Other Languages you can use Google: <a href="">English</a></p>
+        <div class="lang">
+            <p id="language">Other Languages you can use Google: <a href="#">Turkish</a> </p>
         </div>
-
-
-    </section>
-
-
+    </main>
     <footer>
         <div class="country">Turkey</div>
-
-        <nav class="left-footer">
-            <a href="#" class="footer_link" id="advertising">Advertising</a>
-            <a href="#" class="footer_link" id="business">Business</a>
-            <a href="#" class="footer_link" id="hsw">How Search Works</a>
-        </nav>
-
-        <nav class="right-footer">
-            <a href="#" class="footer_link" id="privacy">Privacy</a>
-            <a href="#" class="footer_link" id="terms">Terms</a>
-            <a href="#" class="footer_link" id="settings">Settings</a>
-        </nav>
-
+        <ul class="footer-left">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">How Search Works</a></li>
+        </ul>
+        <ul class="footer-right">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
     </footer>
-
-
-
-
-    
 </body>
 </html>
